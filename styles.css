@@ -15,3 +15,5 @@
 button{color:inherit}.reveal{opacity:1;transform:none}.js .reveal:not(.visible){opacity:0;transform:translateY(28px)}@media(prefers-reduced-motion:reduce){.js .reveal{opacity:1!important;transform:none!important}}
 
 .contact a:focus-visible,.contact button:focus-visible{outline-color:#11140c}
+
+.project-visual{grid-template-columns:minmax(0,1fr);grid-template-rows:minmax(0,1fr)}.screen,.portrait-preview,.identity-preview{min-width:0;min-height:0}.project-visual>.screen{max-width:calc(100% - 40px);max-height:calc(100% - 76px)}.portrait-preview .screen{height:100%;width:auto;flex-shrink:1}.preview-aside{min-width:0;flex:0 1 190px}

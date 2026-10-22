@@ -27,6 +27,7 @@ function openProject(index,updateHash=true){
  document.getElementById('modalTitle').textContent=p.title;
  document.getElementById('modalDescription').textContent=p.detail;
  document.getElementById('modalVisual').replaceChildren(cards[index].querySelector('.project-visual').cloneNode(true));
+ document.getElementById('modalVisual').querySelectorAll('img').forEach(img=>{img.loading='eager'});
  document.getElementById('modalVisual').querySelector('.project-number')?.remove();
  tagNodes(document.getElementById('modalPlatforms'),p.platforms);
  tagNodes(document.getElementById('modalTags'),p.stack);

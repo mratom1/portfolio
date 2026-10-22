@@ -62,7 +62,7 @@
     ],
     "icon": "assets/projects/reget-icon.png",
     "image": "assets/projects/reget.png",
-    "imageCaption": "Interface preview Â· demo data",
+    "imageCaption": "Interface preview · demo data",
     "previewType": "screenshot",
     "note": "Local scanning, resumable sessions and file previews lead into a licensed export workflow.",
     "tags": [
@@ -100,7 +100,7 @@
     ],
     "icon": "assets/projects/my-pos-icon.png",
     "image": "assets/projects/my-pos.png",
-    "imageCaption": "Interface preview Â· demo data",
+    "imageCaption": "Interface preview · demo data",
     "previewType": "screenshot",
     "note": "Includes appointment-fee billing for clinic reception workflows.",
     "tags": [
@@ -140,7 +140,7 @@
     ],
     "icon": "assets/projects/universal-downloader-icon.png",
     "image": "assets/projects/universal-downloader.png",
-    "imageCaption": "Interface preview Â· demo data",
+    "imageCaption": "Interface preview · demo data",
     "previewType": "screenshot",
     "note": "Video and audio formats are selected from those made available by the source.",
     "tags": [
@@ -180,7 +180,7 @@
     ],
     "icon": "assets/projects/off-chat-icon.png",
     "image": "assets/projects/off-chat.png",
-    "imageCaption": "Interface preview Â· demo data",
+    "imageCaption": "Interface preview · demo data",
     "previewType": "screenshot",
     "note": "Voice and video connect over local Wi-Fi, LAN or a hotspot.",
     "tags": [
@@ -331,7 +331,7 @@
     ],
     "icon": "assets/projects/ai-srt-editor-icon.png",
     "image": "assets/projects/ai-srt-editor.png",
-    "imageCaption": "Interface preview Â· demo data",
+    "imageCaption": "Interface preview · demo data",
     "previewType": "screenshot",
     "tags": [
       "Subtitles",

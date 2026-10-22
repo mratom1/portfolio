@@ -20,7 +20,9 @@
       "WebRTC",
       "Multi-platform",
       "Realtime"
-    ]
+    ],
+    "icon": "assets/projects/soul-meeting-icon.png",
+    "imageCaption": "Project logo"
   },
   {
     "title": "HeatScope",
@@ -43,7 +45,13 @@
       "Android",
       "Monitoring",
       "UX"
-    ]
+    ],
+    "icon": "assets/projects/heatscope-icon.png",
+    "imageCaption": "Project interface",
+    "image": "assets/projects/heatscope.png",
+    "imageLayout": "portrait",
+    "imageWidth": 1080,
+    "imageHeight": 2400
   },
   {
     "title": "Chunk Locker",
@@ -66,7 +74,13 @@
       "Security",
       "Files",
       "Desktop"
-    ]
+    ],
+    "icon": "assets/projects/chunk-locker-icon.png",
+    "imageCaption": "Project interface",
+    "image": "assets/projects/chunk-locker.png",
+    "imageLayout": "portrait",
+    "imageWidth": 1080,
+    "imageHeight": 2400
   },
   {
     "title": "Emberfall Kingdoms",
@@ -89,7 +103,13 @@
       "Game Design",
       "3D",
       "Strategy"
-    ]
+    ],
+    "icon": "assets/projects/emberfall-kingdoms-icon.png",
+    "imageCaption": "Game renderer preview - demo scene",
+    "image": "assets/projects/emberfall-kingdoms.png",
+    "imageLayout": "landscape",
+    "imageWidth": 1280,
+    "imageHeight": 821
   },
   {
     "title": "Tele God",
@@ -112,6 +132,8 @@
       "Telegram",
       "Automation",
       "Backend"
-    ]
+    ],
+    "icon": "assets/projects/tele-god-icon.png",
+    "imageCaption": "Project logo"
   }
 ]
