@@ -1,0 +1,117 @@
+[
+  {
+    "title": "SOUL Meeting",
+    "category": "web",
+    "label": "COMMUNICATION PLATFORM",
+    "description": "A bold vision for accessible, cross-platform video meetings and collaboration.",
+    "detail": "SOUL is a concept for a modern video meeting platform across Web, Android, iOS and Windows, designed with affordability, useful collaboration tools and large meetings in mind.",
+    "tags": [
+      "WebRTC",
+      "Multi-platform",
+      "Realtime"
+    ],
+    "tone": "purple",
+    "color": "#a98aff",
+    "id": "soul-meeting",
+    "kind": "concept",
+    "features": [],
+    "platforms": [],
+    "stack": [
+      "WebRTC",
+      "Multi-platform",
+      "Realtime"
+    ]
+  },
+  {
+    "title": "HeatScope",
+    "category": "tools",
+    "label": "ANDROID UTILITY",
+    "description": "Smarter device insights for performance, battery usage and thermal behavior.",
+    "detail": "HeatScope explores a privacy-minded Android utility that helps people understand which background activities may contribute to device heat and drain, with clear, honest diagnostics.",
+    "tags": [
+      "Android",
+      "Monitoring",
+      "UX"
+    ],
+    "tone": "blue",
+    "color": "#63caec",
+    "id": "heatscope",
+    "kind": "concept",
+    "features": [],
+    "platforms": [],
+    "stack": [
+      "Android",
+      "Monitoring",
+      "UX"
+    ]
+  },
+  {
+    "title": "Chunk Locker",
+    "category": "tools",
+    "label": "SECURITY PRODUCT",
+    "description": "A privacy-minded approach to file protection and digital ownership.",
+    "detail": "Chunk Locker represents the idea that strong data protection should still feel approachable, usable and under the user’s control.",
+    "tags": [
+      "Security",
+      "Files",
+      "Desktop"
+    ],
+    "tone": "green",
+    "color": "#d8ff66",
+    "id": "chunk-locker",
+    "kind": "concept",
+    "features": [],
+    "platforms": [],
+    "stack": [
+      "Security",
+      "Files",
+      "Desktop"
+    ]
+  },
+  {
+    "title": "Emberfall Kingdoms",
+    "category": "web",
+    "label": "GAME DEVELOPMENT",
+    "description": "A fantasy strategy game world filled with kingdoms, progression, and adventure.",
+    "detail": "Emberfall Kingdoms is a game development project exploring evolving heroes, armies, environments and upgradeable buildings with visually distinct progression.",
+    "tags": [
+      "Game Design",
+      "3D",
+      "Strategy"
+    ],
+    "tone": "pink",
+    "color": "#fa89bd",
+    "id": "emberfall-kingdoms",
+    "kind": "concept",
+    "features": [],
+    "platforms": [],
+    "stack": [
+      "Game Design",
+      "3D",
+      "Strategy"
+    ]
+  },
+  {
+    "title": "Tele God",
+    "category": "ai",
+    "label": "AUTOMATION SYSTEM",
+    "description": "Fast event-driven Telegram workflow experiments with efficient processing.",
+    "detail": "Tele God explores Telegram monitoring and forwarding automation, with an emphasis on response speed, resource efficiency and dependable background processing.",
+    "tags": [
+      "Telegram",
+      "Automation",
+      "Backend"
+    ],
+    "tone": "cyan",
+    "color": "#75e4df",
+    "id": "tele-god",
+    "kind": "concept",
+    "features": [],
+    "platforms": [],
+    "stack": [
+      "Telegram",
+      "Automation",
+      "Backend"
+    ]
+  }
+]

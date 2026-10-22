@@ -1,0 +1,344 @@
+[
+  {
+    "id": "relaxation",
+    "title": "Relaxation",
+    "kind": "app",
+    "category": "media",
+    "label": "MOVIES & SERIES",
+    "description": "A movie and series app with built-in playback, a personal library and offline downloads.",
+    "detail": "Relaxation brings search, favorites and a built-in video player into one Flutter app for Windows and Android. Playback history, resume controls and an offline library help viewers continue across sessions.",
+    "features": [
+      "Movie and series search",
+      "Favorites and personal library",
+      "Playback history and resume",
+      "Offline media downloads"
+    ],
+    "stack": [
+      "Flutter",
+      "Dart",
+      "Firebase",
+      "Telegram",
+      "Telethon"
+    ],
+    "platforms": [
+      "Windows",
+      "Android"
+    ],
+    "icon": "assets/projects/relaxation-icon.png",
+    "image": "assets/projects/relaxation.webp",
+    "imageCaption": "App interface",
+    "previewType": "screenshot",
+    "tags": [
+      "Media",
+      "Offline library",
+      "Flutter"
+    ],
+    "tone": "purple",
+    "color": "#b397f4"
+  },
+  {
+    "id": "reget",
+    "title": "ReGet",
+    "kind": "app",
+    "category": "tools",
+    "label": "DATA RECOVERY",
+    "description": "A data recovery app with filesystem discovery, file signature scanning and resumable recovery sessions.",
+    "detail": "ReGet combines a Flutter interface with a Rust scanning engine to explore recoverable files on Windows and Android. Saved sessions, bounded file previews and licensed export support a structured recovery workflow.",
+    "features": [
+      "Filesystem discovery",
+      "File signature scanning",
+      "Resumable scan sessions",
+      "File previews and licensed export"
+    ],
+    "stack": [
+      "Flutter",
+      "Dart FFI",
+      "Rust",
+      "SQLite"
+    ],
+    "platforms": [
+      "Windows",
+      "Android"
+    ],
+    "icon": "assets/projects/reget-icon.png",
+    "image": "assets/projects/reget.png",
+    "imageCaption": "Interface preview Â· demo data",
+    "previewType": "screenshot",
+    "note": "Local scanning, resumable sessions and file previews lead into a licensed export workflow.",
+    "tags": [
+      "Recovery",
+      "Rust",
+      "Desktop & mobile"
+    ],
+    "tone": "blue",
+    "color": "#63caec"
+  },
+  {
+    "id": "my-pos",
+    "title": "My POS",
+    "kind": "app",
+    "category": "business",
+    "label": "SALES & INVENTORY",
+    "description": "A point-of-sale app for managing inventory, barcode sales, receipts and staff access.",
+    "detail": "My POS supports retail and restaurant sales workflows with inventory controls, receipts and sales reports on Windows and Android. Staff roles and encrypted local storage complement Firebase account and database services.",
+    "features": [
+      "Barcode sales and inventory",
+      "Receipts and billing",
+      "Staff roles and access",
+      "Sales reporting"
+    ],
+    "stack": [
+      "Flutter",
+      "Dart",
+      "Hive",
+      "Firebase Auth",
+      "Firebase Realtime Database"
+    ],
+    "platforms": [
+      "Windows",
+      "Android"
+    ],
+    "icon": "assets/projects/my-pos-icon.png",
+    "image": "assets/projects/my-pos.png",
+    "imageCaption": "Interface preview Â· demo data",
+    "previewType": "screenshot",
+    "note": "Includes appointment-fee billing for clinic reception workflows.",
+    "tags": [
+      "Point of sale",
+      "Inventory",
+      "Business"
+    ],
+    "tone": "green",
+    "color": "#b8e4c4"
+  },
+  {
+    "id": "universal-downloader",
+    "title": "Universal Downloader",
+    "kind": "app",
+    "category": "media",
+    "label": "MEDIA DOWNLOADS",
+    "description": "A media downloader with link analysis, quality selection, audio extraction and resumable downloads.",
+    "detail": "Universal Downloader uses yt-dlp with platform-specific media tools to download selected video and audio formats on Windows and Android. Local history, thumbnail saving and download controls keep the workflow in one Flutter interface.",
+    "features": [
+      "Media link and quality analysis",
+      "Video and audio downloads",
+      "Pause, resume and retry",
+      "Thumbnails and local history"
+    ],
+    "stack": [
+      "Flutter",
+      "Dart",
+      "yt-dlp",
+      "Python",
+      "FFmpeg",
+      "Firebase",
+      "Cloudflare Workers"
+    ],
+    "platforms": [
+      "Windows",
+      "Android"
+    ],
+    "icon": "assets/projects/universal-downloader-icon.png",
+    "image": "assets/projects/universal-downloader.png",
+    "imageCaption": "Interface preview Â· demo data",
+    "previewType": "screenshot",
+    "note": "Video and audio formats are selected from those made available by the source.",
+    "tags": [
+      "Media tools",
+      "yt-dlp",
+      "Flutter"
+    ],
+    "tone": "cyan",
+    "color": "#75e4df"
+  },
+  {
+    "id": "off-chat",
+    "title": "Off Chat",
+    "kind": "app",
+    "category": "tools",
+    "label": "OFFLINE MESSAGING",
+    "description": "An offline messenger with encrypted local chat, resumable file sharing and direct Wi-Fi voice and video calls.",
+    "detail": "Off Chat runs its mesh engine inside the Windows and Android apps, with no separate server required for local messaging. English and Myanmar interfaces bring together groups, local discovery, file transfers and direct calls.",
+    "features": [
+      "Encrypted local messaging",
+      "Groups and member controls",
+      "Resumable file sharing",
+      "Direct Wi-Fi voice and video calls"
+    ],
+    "stack": [
+      "Flutter",
+      "Dart",
+      "WebRTC",
+      "TCP / UDP",
+      "Bluetooth LE",
+      "Hive",
+      "Firebase"
+    ],
+    "platforms": [
+      "Windows",
+      "Android"
+    ],
+    "icon": "assets/projects/off-chat-icon.png",
+    "image": "assets/projects/off-chat.png",
+    "imageCaption": "Interface preview Â· demo data",
+    "previewType": "screenshot",
+    "note": "Voice and video connect over local Wi-Fi, LAN or a hotspot.",
+    "tags": [
+      "Offline chat",
+      "Connectivity",
+      "English & Myanmar"
+    ],
+    "tone": "green",
+    "color": "#b8e4c4"
+  },
+  {
+    "id": "lumashelf",
+    "title": "LumaShelf",
+    "kind": "app",
+    "category": "tools",
+    "label": "OFFLINE LEARNING",
+    "description": "A personal offline learning library for browsing enrolled courses and managing resumable course downloads.",
+    "detail": "LumaShelf provides a native Flutter interface for an enrolled Udemy library on Windows and Android. Course search, curriculum selection and a persistent download queue work with platform-encrypted session storage.",
+    "features": [
+      "Enrolled course search",
+      "Curriculum and quality selection",
+      "Resumable download queue",
+      "Platform-encrypted session storage"
+    ],
+    "stack": [
+      "Flutter",
+      "Dart",
+      "Dio",
+      "Windows DPAPI",
+      "Android KeyStore"
+    ],
+    "platforms": [
+      "Windows",
+      "Android"
+    ],
+    "icon": "assets/projects/lumashelf-icon.png",
+    "imageCaption": "App identity",
+    "previewType": "identity",
+    "note": "Native Flutter adaptation derived from UdemySaver, with support for downloadable MP4 lectures and course resources.",
+    "creditUrl": "https://github.com/jadis0x/UdemySaver",
+    "tags": [
+      "Learning",
+      "Offline library",
+      "Flutter"
+    ],
+    "tone": "purple",
+    "color": "#b397f4"
+  },
+  {
+    "id": "atom-forensic-pro",
+    "title": "ATOM Forensic Pro",
+    "kind": "app",
+    "category": "tools",
+    "label": "EVIDENCE WORKSPACE",
+    "description": "A Windows evidence workspace for importing, searching, verifying and reporting on acquired data.",
+    "detail": "ATOM Forensic Pro brings folder and JSON imports together with explicit read-only Android acquisition through ADB. SHA-256 integrity checks, an audit log and HTML, CSV and JSON reports support evidence review.",
+    "features": [
+      "Folder and JSON evidence imports",
+      "Read-only Android ADB acquisition",
+      "SHA-256 integrity verification",
+      "Search, audit log and reports"
+    ],
+    "stack": [
+      "Flutter",
+      "Dart",
+      "Python",
+      "SQLite",
+      "ADB"
+    ],
+    "platforms": [
+      "Windows"
+    ],
+    "icon": "assets/projects/forensic-icon.png",
+    "imageCaption": "App identity",
+    "previewType": "identity",
+    "note": "Works with accessible local artifacts and explicitly authorized Android ADB acquisitions.",
+    "tags": [
+      "Forensics",
+      "Integrity",
+      "Evidence"
+    ],
+    "tone": "blue",
+    "color": "#63caec"
+  },
+  {
+    "id": "atom-builder",
+    "title": "ATOM Universal Builder",
+    "kind": "app",
+    "category": "tools",
+    "label": "DEVELOPER WORKSPACE",
+    "description": "A desktop Flutter workspace with project tools, build commands and cloud or local AI assistance.",
+    "detail": "ATOM Universal Builder combines a Go and Wails desktop shell with a React interface and Monaco editor. Build, run, test and doctor commands sit alongside project search, Git tools, extensions and AI Ask and Agent workflows.",
+    "features": [
+      "Flutter build, run, test and doctor",
+      "Project search and Git tools",
+      "Monaco editor and extensions",
+      "Cloud and local AI workflows"
+    ],
+    "stack": [
+      "Go",
+      "Wails v2",
+      "React",
+      "Monaco",
+      "Vite"
+    ],
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "icon": "assets/projects/atom-builder-icon.png",
+    "imageCaption": "App identity",
+    "previewType": "identity",
+    "note": "Windows desktop workspace with macOS and Linux build targets.",
+    "tags": [
+      "Developer tools",
+      "Flutter workspace",
+      "AI assistance"
+    ],
+    "tone": "pink",
+    "color": "#fa89bd"
+  },
+  {
+    "id": "ai-srt-editor",
+    "title": "AI SRT Editor",
+    "kind": "app",
+    "category": "ai",
+    "label": "SUBTITLES & VIDEO",
+    "description": "A subtitle and video editor with timeline caption editing, AI translation and styled exports.",
+    "detail": "AI SRT Editor brings caption timing, text editing and subtitle styles into a Flutter workspace for Windows and Android. A project library, autosave and undo support ongoing edits, with SRT, VTT, TXT and MP4 export options.",
+    "features": [
+      "Timeline caption editing",
+      "AI-assisted translation",
+      "Subtitle styles and project autosave",
+      "SRT, VTT, TXT and MP4 export"
+    ],
+    "stack": [
+      "Flutter",
+      "Dart",
+      "FFmpeg",
+      "media_kit",
+      "Firebase",
+      "Cloudflare Workers"
+    ],
+    "platforms": [
+      "Windows",
+      "Android"
+    ],
+    "icon": "assets/projects/ai-srt-editor-icon.png",
+    "image": "assets/projects/ai-srt-editor.png",
+    "imageCaption": "Interface preview Â· demo data",
+    "previewType": "screenshot",
+    "tags": [
+      "Subtitles",
+      "AI translation",
+      "Video tools"
+    ],
+    "tone": "yellow",
+    "color": "#e5d976"
+  }
+]
