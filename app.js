@@ -44,7 +44,7 @@ dialog.addEventListener('close',()=>{document.body.style.overflow='';if(location
 closeButton.addEventListener('click',closeProject);
 dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)closeProject()}});
 grid.addEventListener('click',e=>{const button=e.target.closest('[data-open]');if(button)openProject(Number(button.dataset.open))});
-document.getElementById('modalContact').addEventListener('click',()=>{closeProject();location.hash='contact'});
+document.getElementById('modalContact').addEventListener('click',()=>{returnToProject=false;previousFocus=null;closeProject();location.hash='contact'});
 document.getElementById('shareProject').addEventListener('click',async()=>{if(!activeProject)return;const url=new URL(location.href);url.hash=`project/${activeProject.id}`;const status=document.getElementById('shareStatus');try{await navigator.clipboard.writeText(url.href);status.textContent='Project link copied.'}catch{status.textContent=url.href}});
 function readProjectHash(){if(location.hash.startsWith('#project/')){let id;try{id=decodeURIComponent(location.hash.slice(9))}catch{return}const i=projects.findIndex(p=>p.id===id);if(i>=0)openProject(i,false)}else if(dialog.open)closeProject()}
 window.addEventListener('hashchange',readProjectHash);readProjectHash();

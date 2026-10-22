@@ -2,14 +2,14 @@
 
 Static portfolio for ATOM, featuring nine documented apps and five retained earlier project concepts.
 
-Intended live URL: [mratom1.github.io/portfolio](https://mratom1.github.io/portfolio/).
+Live portfolio: [mratom1.github.io/portfolio](https://mratom1.github.io/portfolio/).
 
 ## Apps
 
 - Relaxation
-- Re Get
-- Sales Administrator
-- YT-DLP Downloader Flutter
+- ReGet
+- My POS (Sales Administrator)
+- Universal Downloader
 - Off Chat
 - LumaShelf
 - ATOM Forensic Pro
