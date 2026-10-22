@@ -44,7 +44,7 @@ dialog.addEventListener('close',()=>{document.body.style.overflow='';if(location
 closeButton.addEventListener('click',closeProject);
 dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)closeProject()}});
 grid.addEventListener('click',e=>{const button=e.target.closest('[data-open]');if(button)openProject(Number(button.dataset.open))});
-document.getElementById('modalContact').addEventListener('click',()=>{returnToProject=false;previousFocus=null;closeProject();location.hash='contact'});
+document.getElementById('modalContact').addEventListener('click',closeProject);
 document.getElementById('shareProject').addEventListener('click',async()=>{if(!activeProject)return;const url=new URL(location.href);url.hash=`project/${activeProject.id}`;const status=document.getElementById('shareStatus');try{await navigator.clipboard.writeText(url.href);status.textContent='Project link copied.'}catch{status.textContent=url.href}});
 function readProjectHash(){if(location.hash.startsWith('#project/')){let id;try{id=decodeURIComponent(location.hash.slice(9))}catch{return}const i=projects.findIndex(p=>p.id===id);if(i>=0)openProject(i,false)}else if(dialog.open)closeProject()}
 window.addEventListener('hashchange',readProjectHash);readProjectHash();
@@ -61,6 +61,6 @@ const sections=[...document.querySelectorAll('main section[id]')],navAnchors=[..
 window.addEventListener('scroll',()=>{let current='home';sections.forEach(s=>{if(scrollY>=s.offsetTop-180)current=s.id});navAnchors.forEach(a=>{const active=a.hash==='#'+current;a.classList.toggle('active',active);if(active)a.setAttribute('aria-current','location');else a.removeAttribute('aria-current')})},{passive:true});
 const glow=document.getElementById('cursorGlow');
 if(matchMedia('(pointer:fine) and (prefers-reduced-motion:no-preference)').matches)window.addEventListener('pointermove',e=>{glow.style.left=e.clientX+'px';glow.style.top=e.clientY+'px'},{passive:true});
-document.getElementById('copyEmail').addEventListener('click',async e=>{const button=e.currentTarget;try{await navigator.clipboard.writeText('hello@mratom.asia');button.textContent='COPIED ✓'}catch{button.textContent='EMAIL: hello@mratom.asia'}setTimeout(()=>button.textContent='COPY EMAIL ADDRESS ⧉',2500)});
+document.getElementById('copyEmail').addEventListener('click',async e=>{const button=e.currentTarget;try{await navigator.clipboard.writeText('mratom.mr619@gmail.com');button.textContent='COPIED ✓'}catch{button.textContent='EMAIL: mratom.mr619@gmail.com'}setTimeout(()=>button.textContent='COPY EMAIL ADDRESS ⧉',2500)});
 document.getElementById('backTop').addEventListener('click',()=>scrollTo({top:0,behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'instant':'smooth'}));
 document.getElementById('year').textContent=new Date().getFullYear();
