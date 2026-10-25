@@ -2,7 +2,7 @@
 
 Static portfolio for ATOM, featuring nine documented apps and five retained earlier project concepts.
 
-Live portfolio: [mratom1.github.io/portfolio](https://mratom1.github.io/portfolio/).
+Live portfolio: [mratom.asia](https://mratom.asia/).
 
 ## Apps
 
