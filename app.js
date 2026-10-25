@@ -1,6 +1,8 @@
 'use strict';
 document.documentElement.classList.add('js');
 const projects=JSON.parse(document.getElementById('projectData').textContent);
+const appCount=projects.filter(p=>p.kind==='app').length;
+const conceptCount=projects.filter(p=>p.kind==='concept').length;
 const grid=document.getElementById('projectGrid');
 const cards=[...grid.querySelectorAll('.project')];
 const search=document.getElementById('projectSearch');
@@ -10,7 +12,7 @@ function filterProjects(){
  const query=search.value.trim().toLocaleLowerCase();
  let visible=0;
  projects.forEach((p,i)=>{const match=activeFilter==='all'||(activeFilter==='apps'&&p.kind==='app')||(activeFilter==='concepts'&&p.kind==='concept')||(p.kind==='app'&&p.category===activeFilter);const haystack=[p.title,p.description,p.detail,...p.tags,...p.stack,...p.platforms,...p.features].join(' ').toLocaleLowerCase();cards[i].hidden=!(match&&haystack.includes(query));if(!cards[i].hidden)visible++});
- document.getElementById('resultCount').textContent=`${visible} ${visible===1?'project':'projects'}${activeFilter==='all'&&!query?' · 9 apps + 5 earlier concepts':''}`;
+ document.getElementById('resultCount').textContent=`${visible} ${visible===1?'project':'projects'}${activeFilter==='all'&&!query?` · ${appCount} apps + ${conceptCount} earlier concepts`:''}`;
  document.getElementById('emptyMessage').hidden=visible>0;
 }
 filterButtons.forEach(button=>button.addEventListener('click',()=>{activeFilter=button.dataset.filter;filterButtons.forEach(b=>{const selected=b===button;b.classList.toggle('active',selected);b.setAttribute('aria-pressed',String(selected))});filterProjects()}));

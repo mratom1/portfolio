@@ -1,6 +1,6 @@
 # ATOM Portfolio
 
-Static portfolio for ATOM, featuring nine documented apps and five retained earlier project concepts.
+Static portfolio for ATOM, featuring twelve documented apps and five retained earlier project concepts.
 
 Live portfolio: [mratom.asia](https://mratom.asia/).
 
@@ -15,6 +15,9 @@ Live portfolio: [mratom.asia](https://mratom.asia/).
 - ATOM Forensic Pro
 - ATOM Universal Builder
 - AI SRT Editor
+- AI Video & Photo Enhancer Pro
+- Royal Chess Arena
+- Hidden Camera Detector
 
 App descriptions are based on the local project documentation and implementation. Visuals use actual interface/demo screenshots or app identity assets; screenshots have not been invented. Earlier concepts remain identified separately from these documented apps. Private application source and repository links are not published here.
 

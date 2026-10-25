@@ -340,5 +340,118 @@
     ],
     "tone": "yellow",
     "color": "#e5d976"
+  },
+  {
+    "id": "ai-enhancer-pro",
+    "title": "AI Video & Photo Enhancer Pro",
+    "kind": "app",
+    "category": "ai",
+    "label": "PHOTO & VIDEO ENHANCEMENT",
+    "description": "An offline Windows app for AI photo and video upscaling, with batch processing and enhancement presets.",
+    "detail": "AI Video & Photo Enhancer Pro combines a Python interface with a local Real-ESRGAN engine for photo and video enhancement. Eight presets, GPU and tile controls, a batch queue and frame-level progress guide the workflow from import to export.",
+    "features": [
+      "Model-dependent 2x, 3x and 4x upscaling",
+      "Batch photo and MP4/MKV video processing",
+      "GPU selection and adjustable tile size",
+      "Frame progress, remaining time and result playback"
+    ],
+    "stack": [
+      "Python",
+      "Tkinter",
+      "Real-ESRGAN",
+      "ncnn / Vulkan",
+      "FFmpeg",
+      "PyInstaller"
+    ],
+    "platforms": [
+      "Windows"
+    ],
+    "icon": "assets/projects/ai-enhancer-pro-icon.png",
+    "imageCaption": "App identity",
+    "previewType": "identity",
+    "note": "Runs enhancement locally, with PNG photo output and H.264 video export.",
+    "tags": [
+      "AI enhancement",
+      "Photo & video",
+      "Offline"
+    ],
+    "tone": "pink",
+    "color": "#fa89bd"
+  },
+  {
+    "id": "royal-chess-arena",
+    "title": "Royal Chess Arena",
+    "kind": "app",
+    "category": "games",
+    "label": "CHESS & STRATEGY",
+    "description": "A chess app with 2D and 3D boards, offline local and bot play, and private online games with friends.",
+    "detail": "Play on the same device, challenge a local bot or invite a friend through a private room code or link. Royal Chess Arena combines customizable 2D and native 3D boards with saved games, PGN tools and English and Myanmar interfaces across desktop, web and mobile.",
+    "features": [
+      "2D and native 3D boards with three camera angles",
+      "Offline two-player games and a ten-level bot with hints",
+      "Private unrated online rooms with invitation codes and links",
+      "Saved-game replay, PGN import/export and board customization"
+    ],
+    "stack": [
+      "Flutter",
+      "Dart",
+      "Firebase Firestore",
+      "Alpha-beta search"
+    ],
+    "platforms": [
+      "Windows",
+      "Android",
+      "Web"
+    ],
+    "icon": "assets/projects/royal-chess-arena-icon.png",
+    "image": "assets/projects/royal-chess-arena.webp",
+    "imageWidth": 1200,
+    "imageHeight": 900,
+    "imageCaption": "App interface · 3D board",
+    "previewType": "screenshot",
+    "note": "Private online games are unrated; local games and the bot work offline.",
+    "tags": [
+      "3D chess",
+      "Offline play",
+      "English & Myanmar"
+    ],
+    "tone": "yellow",
+    "color": "#e5d976"
+  },
+  {
+    "id": "hidden-camera-detector",
+    "title": "Hidden Camera Detector",
+    "kind": "app",
+    "category": "tools",
+    "label": "PRIVACY INSPECTION",
+    "description": "An Android privacy toolkit for reviewing network devices, camera reflections and magnetic field changes.",
+    "detail": "Hidden Camera Detector combines local network service checks, nearby Bluetooth LE advertisements and calibrated sensor readings to surface devices and signals worth reviewing. Camera controls and a six-step room checklist help users examine possible clues in context.",
+    "features": [
+      "Wi-Fi service checks and nearby Bluetooth LE device clues",
+      "Magnetic field readings with baseline calibration",
+      "Live camera view with torch, zoom and contrast controls",
+      "Six-step room inspection checklist"
+    ],
+    "stack": [
+      "Flutter",
+      "Dart",
+      "Provider",
+      "Bluetooth LE",
+      "sensors_plus"
+    ],
+    "platforms": [
+      "Android"
+    ],
+    "icon": "assets/projects/hidden-camera-detector-icon.png",
+    "imageCaption": "App identity",
+    "previewType": "identity",
+    "note": "Device and sensor readings provide inspection clues, not confirmation of a hidden camera. Available tools depend on the phone's hardware.",
+    "tags": [
+      "Privacy tools",
+      "Device discovery",
+      "Flutter"
+    ],
+    "tone": "blue",
+    "color": "#63caec"
   }
 ]
