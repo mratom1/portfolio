@@ -2,7 +2,6 @@
   {
     "id": "relaxation",
     "title": "Relaxation",
-    "kind": "app",
     "category": "media",
     "label": "MOVIES & SERIES",
     "description": "A movie and series app with built-in playback, a personal library and offline downloads.",
@@ -39,7 +38,6 @@
   {
     "id": "reget",
     "title": "ReGet",
-    "kind": "app",
     "category": "tools",
     "label": "DATA RECOVERY",
     "description": "A data recovery app with filesystem discovery, file signature scanning and resumable recovery sessions.",
@@ -76,7 +74,6 @@
   {
     "id": "my-pos",
     "title": "My POS",
-    "kind": "app",
     "category": "business",
     "label": "SALES & INVENTORY",
     "description": "A point-of-sale app for managing inventory, barcode sales, receipts and staff access.",
@@ -114,7 +111,6 @@
   {
     "id": "universal-downloader",
     "title": "Universal Downloader",
-    "kind": "app",
     "category": "media",
     "label": "MEDIA DOWNLOADS",
     "description": "A media downloader with link analysis, quality selection, audio extraction and resumable downloads.",
@@ -154,7 +150,6 @@
   {
     "id": "off-chat",
     "title": "Off Chat",
-    "kind": "app",
     "category": "tools",
     "label": "OFFLINE MESSAGING",
     "description": "An offline messenger with encrypted local chat, resumable file sharing and direct Wi-Fi voice and video calls.",
@@ -194,7 +189,6 @@
   {
     "id": "lumashelf",
     "title": "LumaShelf",
-    "kind": "app",
     "category": "tools",
     "label": "OFFLINE LEARNING",
     "description": "A personal offline learning library for browsing enrolled courses and managing resumable course downloads.",
@@ -232,7 +226,6 @@
   {
     "id": "atom-forensic-pro",
     "title": "ATOM Forensic Pro",
-    "kind": "app",
     "category": "tools",
     "label": "EVIDENCE WORKSPACE",
     "description": "A Windows evidence workspace for importing, searching, verifying and reporting on acquired data.",
@@ -268,7 +261,6 @@
   {
     "id": "atom-builder",
     "title": "ATOM Universal Builder",
-    "kind": "app",
     "category": "tools",
     "label": "DEVELOPER WORKSPACE",
     "description": "A desktop Flutter workspace with project tools, build commands and cloud or local AI assistance.",
@@ -306,7 +298,6 @@
   {
     "id": "ai-srt-editor",
     "title": "AI SRT Editor",
-    "kind": "app",
     "category": "ai",
     "label": "SUBTITLES & VIDEO",
     "description": "A subtitle and video editor with timeline caption editing, AI translation and styled exports.",
@@ -344,7 +335,6 @@
   {
     "id": "ai-enhancer-pro",
     "title": "AI Video & Photo Enhancer Pro",
-    "kind": "app",
     "category": "ai",
     "label": "PHOTO & VIDEO ENHANCEMENT",
     "description": "An offline Windows app for AI photo and video upscaling, with batch processing and enhancement presets.",
@@ -381,7 +371,6 @@
   {
     "id": "royal-chess-arena",
     "title": "Royal Chess Arena",
-    "kind": "app",
     "category": "games",
     "label": "CHESS & STRATEGY",
     "description": "A chess app with 2D and 3D boards, offline local and bot play, and private online games with friends.",
@@ -421,7 +410,6 @@
   {
     "id": "hidden-camera-detector",
     "title": "Hidden Camera Detector",
-    "kind": "app",
     "category": "tools",
     "label": "PRIVACY INSPECTION",
     "description": "An Android privacy toolkit for reviewing network devices, camera reflections and magnetic field changes.",
@@ -453,5 +441,137 @@
     ],
     "tone": "blue",
     "color": "#63caec"
+  },
+  {
+    "title": "SOUL Meeting",
+    "category": "web",
+    "label": "COMMUNICATION PLATFORM",
+    "description": "A bold vision for accessible, cross-platform video meetings and collaboration.",
+    "detail": "SOUL is a project exploring a modern video meeting platform across Web, Android, iOS and Windows, designed with affordability, useful collaboration tools and large meetings in mind.",
+    "tags": [
+      "WebRTC",
+      "Multi-platform",
+      "Realtime"
+    ],
+    "tone": "purple",
+    "color": "#a98aff",
+    "id": "soul-meeting",
+    "features": [],
+    "platforms": [],
+    "stack": [
+      "WebRTC",
+      "Multi-platform",
+      "Realtime"
+    ],
+    "icon": "assets/projects/soul-meeting-icon.png",
+    "imageCaption": "Project logo"
+  },
+  {
+    "title": "HeatScope",
+    "category": "tools",
+    "label": "ANDROID UTILITY",
+    "description": "Smarter device insights for performance, battery usage and thermal behavior.",
+    "detail": "HeatScope explores a privacy-minded Android utility that helps people understand which background activities may contribute to device heat and drain, with clear, honest diagnostics.",
+    "tags": [
+      "Android",
+      "Monitoring",
+      "UX"
+    ],
+    "tone": "blue",
+    "color": "#63caec",
+    "id": "heatscope",
+    "features": [],
+    "platforms": [],
+    "stack": [
+      "Android",
+      "Monitoring",
+      "UX"
+    ],
+    "icon": "assets/projects/heatscope-icon.png",
+    "imageCaption": "Project interface",
+    "image": "assets/projects/heatscope.png",
+    "imageLayout": "portrait",
+    "imageWidth": 1080,
+    "imageHeight": 2400
+  },
+  {
+    "title": "Chunk Locker",
+    "category": "tools",
+    "label": "SECURITY PRODUCT",
+    "description": "A privacy-minded approach to file protection and digital ownership.",
+    "detail": "Chunk Locker represents the idea that strong data protection should still feel approachable, usable and under the user’s control.",
+    "tags": [
+      "Security",
+      "Files",
+      "Desktop"
+    ],
+    "tone": "green",
+    "color": "#d8ff66",
+    "id": "chunk-locker",
+    "features": [],
+    "platforms": [],
+    "stack": [
+      "Security",
+      "Files",
+      "Desktop"
+    ],
+    "icon": "assets/projects/chunk-locker-icon.png",
+    "imageCaption": "Project interface",
+    "image": "assets/projects/chunk-locker.png",
+    "imageLayout": "portrait",
+    "imageWidth": 1080,
+    "imageHeight": 2400
+  },
+  {
+    "title": "Emberfall Kingdoms",
+    "category": "games",
+    "label": "GAME DEVELOPMENT",
+    "description": "A fantasy strategy game world filled with kingdoms, progression, and adventure.",
+    "detail": "Emberfall Kingdoms is a game development project exploring evolving heroes, armies, environments and upgradeable buildings with visually distinct progression.",
+    "tags": [
+      "Game Design",
+      "3D",
+      "Strategy"
+    ],
+    "tone": "pink",
+    "color": "#fa89bd",
+    "id": "emberfall-kingdoms",
+    "features": [],
+    "platforms": [],
+    "stack": [
+      "Game Design",
+      "3D",
+      "Strategy"
+    ],
+    "icon": "assets/projects/emberfall-kingdoms-icon.png",
+    "imageCaption": "Game renderer preview - demo scene",
+    "image": "assets/projects/emberfall-kingdoms.png",
+    "imageLayout": "landscape",
+    "imageWidth": 1280,
+    "imageHeight": 821
+  },
+  {
+    "title": "Tele God",
+    "category": "ai",
+    "label": "AUTOMATION SYSTEM",
+    "description": "Fast event-driven Telegram workflow experiments with efficient processing.",
+    "detail": "Tele God explores Telegram monitoring and forwarding automation, with an emphasis on response speed, resource efficiency and dependable background processing.",
+    "tags": [
+      "Telegram",
+      "Automation",
+      "Backend"
+    ],
+    "tone": "cyan",
+    "color": "#75e4df",
+    "id": "tele-god",
+    "features": [],
+    "platforms": [],
+    "stack": [
+      "Telegram",
+      "Automation",
+      "Backend"
+    ],
+    "icon": "assets/projects/tele-god-icon.png",
+    "imageCaption": "Project logo"
   }
 ]

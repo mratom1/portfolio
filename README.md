@@ -1,10 +1,10 @@
 # ATOM Portfolio
 
-Static portfolio for ATOM, featuring twelve documented apps and five retained earlier project concepts.
+Static portfolio for ATOM, featuring 17 projects across media, business, communication, developer tools, games and AI.
 
 Live portfolio: [mratom.asia](https://mratom.asia/).
 
-## Apps
+## Projects
 
 - Relaxation
 - ReGet
@@ -18,8 +18,13 @@ Live portfolio: [mratom.asia](https://mratom.asia/).
 - AI Video & Photo Enhancer Pro
 - Royal Chess Arena
 - Hidden Camera Detector
+- SOUL Meeting
+- HeatScope
+- Chunk Locker
+- Emberfall Kingdoms
+- Tele God
 
-App descriptions are based on the local project documentation and implementation. Visuals use actual interface/demo screenshots or app identity assets; screenshots have not been invented. Earlier concepts remain identified separately from these documented apps. Private application source and repository links are not published here.
+Project descriptions are based on the local project documentation and implementation. Visuals use actual interface/demo screenshots or app identity assets; screenshots have not been invented. Private application source and repository links are not published here.
 
 LumaShelf is a Flutter adaptation derived from [jadis0x/UdemySaver](https://github.com/jadis0x/UdemySaver).
 
